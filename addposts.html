@@ -60,15 +60,41 @@
     </nav>
     <!-- ==================   END OF NAVBAR   ======================-->
 
+<section class="form__section">
+    <div class="container form__section-container">
+        <h2>Add Post</h2>
+        <div class="alert__message error">
+            <p>This is an error message</p>
+        </div>
+        <form action="" enctype="multipart/form-data">
+            <input type="text" placeholder="Title">
+            <select name="" id="">
+                <option value="1">Travel</option>
+                <option value="1">Science & Tech</option>
+                <option value="1">Travel</option>
+                <option value="1">Travel</option>
+                <option value="1">Travel</option>
+            </select>
+            
 
-    <section class="empty__page">
-        <h1>
-           Services
-        </h1>
-    </section>
+            <textarea rows="10" name="" id="" placeholder="Body"></textarea>
+            <div class="form__control inline">
+                <input type="checkbox" id="is_featured">
+                <label for="is_featured">Featured</label>
+            </div>
+            <div class="form__control">
+                <label for="thumbnail">Add Thumbnail</label>
+                <input type="file" id="thumbnail">
+            </div>
+            <button type="submit" class="btn">Add Post</button>
+               
+            
 
+        </form>
+    </div>
+</section>
 
-    <footer>
+<footer>
         <div class="footer__socials">
             <a href="http://youtube.com/Kingstutorials" target="_blank"><i class="uil uil-youtube"></i></a>
             <a href="http://facebook.com/Kingstutorials" target="_blank"><i class="uil uil-facebook-f"></i>
