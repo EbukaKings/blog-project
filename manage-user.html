@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Blog Website</title>
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- ICONS  CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+     <!-- Google Fonts (MONTSERAT)-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">
+                Kings
+            </a>
+            <ul class="nav__items">
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="posts.html">Post</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="signin.html">Signin</a>
+                </li>
+                <li class="nav__profile">
+                    <div class="avater">
+                        <img src="./images/IMG-20240617-WA0047.jpg" alt="cheeck path">
+                    </div>
+                    <ul>
+                        <li><a href="">Dashboard</a></li>
+                        <li><a href="logout.html">Logout</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            <button id="open__nav-btn">
+                 <i class="fas fa-bars"></i>
+                
+                
+            </button>
+            <button id="close__nav-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- ==================   END OF NAVBAR   ======================-->
+
+
+
+<section class="dashboard">
+    <div class="container dashboard__container">
+        <button id="show__sidebar-btn" class="sidebar__toggle"><i class="fas fa-arrow-left"></i>
+</button>
+         <button id="hide__sidebar-btn" class="sidebar__toggle"><i class="fas fa-arrow-right"></i>
+</button>
+        <aside>
+            <ul>
+                <li>
+                    <a href="addposts.html">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h5>Add Post</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fas fa-list"></i>
+                        <h5>Manage Users</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fas fa-user-plus"></i>
+                        <h5>Add Users</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fas fa-folder-plus"></i>
+                        <h5>Add Category</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="dashboard.html" class="active">
+                        <i class="fas fa-folder-open"></i>
+                        <h5>Manage Category</h5>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Manage Categories</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                        <th>Admin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kingsley Ugwu</td>
+                        <td>Kings</td>
+                        <td><a href="edit-user.html" class="btn sm">Edit</a></td>
+                        <td><a href="edit-user.html" class="btn sm danger">Delete</a></td>
+                         <td>Yes</td>
+                    </tr>
+                     <tr>
+                        <td>Chisom Obetta</td>
+                        <td>Bella</td>
+                        <td><a href="edit-user.html" class="btn sm">Edit</a></td>
+                        <td><a href="editcategory.html" class="btn sm danger">Delete</a></td>
+                         <td>Yes</td>
+                    </tr>
+                     <tr>
+                        <td>Emmanuella Oyiridiya</td>
+                        <td>Nne</td>
+                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
+                        <td><a href="editcategory.html" class="btn sm danger">Delete</a></td>
+                         <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</section>
+
+
+
+
+     <footer>
+        <div class="footer__socials">
+            <a href="http://youtube.com/Kingstutorials" target="_blank"><i class="uil uil-youtube"></i></a>
+            <a href="http://facebook.com/Kingstutorials" target="_blank"><i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="http://instagram.com" target="_blank"><i class="uil uil-instagram-alt"></i>
+            </a>
+            <a href="http://linkdin.com" target="_blank"><i class="uil uil-linkedin"></i>
+            </a>
+            <a href="http://x.com" target="_blank"><i class="uil uil-twitter"></i>
+            </a>
+            
+        </div>
+        <div class="container footer__container">
+            <article>
+                <h4>Art</h4>
+                <ul>
+                        <li>
+                            <a href="">Art</a>
+                            <a href="">Wild Life</a>
+                            <a href="">Travel</a>
+                            <a href="">Music</a>
+                            <a href="">Science & Technology</a>
+                            <a href="">Food</a>
+                        </li>
+                    </ul>
+            </article>
+            <article>
+                <h4>Support</h4>
+                <ul>
+                        <li>
+                            <a href="">Online Support</a>
+                            <a href="">Call Numbers</a>
+                            <a href="">Email</a>
+                            <a href="">Social Support</a>
+                            <a href="">Location</a>
+                             <a href="">Food</a>
+                        </li>
+                    </ul>
+            </article>
+             <article>
+                <h4>Blog</h4>
+                <ul>
+                        <li>
+                            <a href="">Safety</a>
+                            <a href="">Repaire</a>
+                            <a href="">Recent</a>
+                            <a href="">Popular</a>
+                            <a href="">Categories</a>
+                            
+                        </li>
+                    </ul>
+            </article>
+            <article>
+                <h4>Permalink</h4>
+                <ul>
+                        <li>
+                            <a href="">Home</a>
+                            <a href="">Blog</a>
+                            <a href="">About</a>
+                            <a href="">Services</a>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+            </article>
+                        
+            
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; Kings</small>
+        </div>
+
+     </footer>
+<script src="main.js"></script>
+</body>
+</html>
